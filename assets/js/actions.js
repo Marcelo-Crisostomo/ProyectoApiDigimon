@@ -16,7 +16,7 @@ consumo.then(function(respuesta) {
       '<div class="nivel"><span class="categoria">' + datos[i].level + '</span>' +
       '</div>';
   }
-  // inserte todo el html a mostrarse.
+  // inserte todo el html a mostrarse .
   digimons.innerHTML = html;
 
 });
