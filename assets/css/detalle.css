@@ -21,7 +21,7 @@ body{
 /* Fuente local de digimon */
 @font-face {
   font-family: 'Digimon';
-  src: url('/assets/fonts/PixelDigivolve-mOm9.ttf') format('truetype');
+  src: url('../fonts/PixelDigivolve-mOm9.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }

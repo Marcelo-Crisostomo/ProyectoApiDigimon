@@ -10,7 +10,7 @@ consumo.then(function(respuesta) {
 
   var html = "";
   for (var i = 0; datos.length > i; i++) {
-    html = html + '<a href="/detalle.html?name=' + datos[i].name + '" class="digi">' +
+    html = html + '<a href="detalle.html?name=' + datos[i].name + '" class="digi">' +
       '<img src="' + datos[i].img + '" />' +
       '<h2 class="titulo">' + datos[i].name + '</h2>' +
       '<div class="nivel"><span class="categoria">' + datos[i].level + '</span>' +
